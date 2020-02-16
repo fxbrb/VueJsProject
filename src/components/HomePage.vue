@@ -23,9 +23,6 @@ import ImgCard from './ImgCard.vue'
 
 export default {
     name: 'HomePage',
-    components:{
-      ImgCard,
-    },
     data(){
       return{
         films: null
@@ -45,10 +42,5 @@ export default {
 </script>
 
 <style scoped>
-
-.homecard{
-  
-  display: flex;
-}
 
 </style>
